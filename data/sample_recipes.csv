@@ -1,0 +1,9 @@
+name,id,ingredients
+Simple chicken rice,1,"['chicken', 'rice', 'salt']"
+Garlic chicken,2,"['chicken', 'garlic', 'olive oil', 'salt']"
+Butter rice,3,"['rice', 'butter', 'salt']"
+Tomato pasta,4,"['pasta', 'tomatoes', 'garlic', 'olive oil']"
+Pancakes,5,"['flour', 'milk', 'eggs', 'butter']"
+Sugar cookies,6,"['flour', 'sugar', 'butter', 'eggs']"
+Roasted vegetables,7,"['carrots', 'onion', 'olive oil', 'salt', 'pepper']"
+Plain rice,8,"['rice', 'water']"

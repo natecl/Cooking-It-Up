@@ -1,0 +1,6 @@
+build*/
+data/RAW_recipes.csv
+data/*.zip
+__pycache__/
+.DS_Store
+*.profraw

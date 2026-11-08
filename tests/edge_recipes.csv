@@ -1,0 +1,12 @@
+name,id,ingredients
+"Rice, simple",10,"[' RICE ', 'rice', 'salt']"
+"A ""quoted"" name
+on two lines",20,"['rice', 'water']"
+Duplicate ID,10,"['butter']"
+No ingredients,30,[]
+Invalid list,40,"not a list"
+,50,"['rice']"
+Invalid ID,nope,"['rice']"
+Wrong width,60
+Garlic rice,70,"['garlic', 'rice']"
+All match,80,"['rice']"

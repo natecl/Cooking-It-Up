@@ -1,0 +1,2 @@
+PASS: 231,636 cleaned recipes; 14,941 ingredients; rejected IDs=['368257']
+All 14 full-dataset top-10 rankings and scores agree with independent Python set/full-sort oracle.

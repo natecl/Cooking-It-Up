@@ -1,0 +1,27 @@
+Loaded 231636 recipes; vocabulary=14941; rejected=1; duplicate IDs=0; preprocessing=2038.79 ms
+
+Jaccard results | 231636 recipes evaluated
+1. easiest chicken recipe of all [id=87522] | score=0.666667 | matched=2/2
+   Missing ingredients: none - you have every listed ingredient
+2. avgolemono soup  chicken soup [id=10877] | score=0.500000 | matched=3/6
+   Missing ingredients: avgolemono sauce, onion, pepper
+3. mirj s foolproof microwave rice   perfect every time [id=39269] | score=0.500000 | matched=2/3
+   Missing ingredients: water
+4. pressure cooker rice [id=164741] | score=0.500000 | matched=2/3
+   Missing ingredients: water
+5. himalayan red rice [id=339010] | score=0.500000 | matched=2/3
+   Missing ingredients: water
+Query time: 6.384 ms (scoring + top-N; excludes display)
+
+Cosine results | 231636 recipes evaluated
+1. easiest chicken recipe of all [id=87522] | score=0.816497 | matched=2/2
+   Missing ingredients: none - you have every listed ingredient
+2. avgolemono soup  chicken soup [id=10877] | score=0.707107 | matched=3/6
+   Missing ingredients: avgolemono sauce, onion, pepper
+3. mirj s foolproof microwave rice   perfect every time [id=39269] | score=0.666667 | matched=2/3
+   Missing ingredients: water
+4. pressure cooker rice [id=164741] | score=0.666667 | matched=2/3
+   Missing ingredients: water
+5. himalayan red rice [id=339010] | score=0.666667 | matched=2/3
+   Missing ingredients: water
+Query time: 6.415 ms (scoring + top-N; excludes display)

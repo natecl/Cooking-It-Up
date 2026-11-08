@@ -19,9 +19,10 @@ Related individual peer feedback and group feedback are separate assignments, no
 
 ## Remaining human inputs
 
-1. Artem's GitHub username (not provided).
-2. Team records and uploads the demo; insert the real YouTube URL in `docs/report_metadata.json` and regenerate the PDF.
-3. Each member reviews the implementation, contributes their own work, and supplies truthful learning/reflection notes. Update actual responsibilities accordingly; do not present the proposal's planned roles as completed contributions.
-4. Team checks any course-specific AI-use requirements and submits the repository URL in Canvas.
+1. Team records and uploads the demo; insert the real YouTube URL in `docs/report_metadata.json` and regenerate the PDF.
+2. Each member reviews the implementation, contributes their own work, and supplies truthful learning/reflection notes. Update actual responsibilities accordingly; do not present the proposal's planned roles as completed contributions.
+3. Team checks any course-specific AI-use requirements and submits the repository URL in Canvas.
+
+Artem's GitHub username is omitted at the user's explicit request, although the assignment asks for all members' usernames.
 
 The report is labeled a draft while these required items remain. No Canvas submission has been made.

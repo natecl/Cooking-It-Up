@@ -3,7 +3,7 @@
   "video_url": "",
   "members": [
     {"name": "Nathan Chin-Lue", "github": "natecl", "learning": ""},
-    {"name": "Artem Antonian", "github": "", "learning": ""},
+    {"name": "Artem Antonian", "github": "", "omit_github": true, "learning": ""},
     {"name": "Marissa Micioni", "github": "marissamicioni2025-hub", "learning": ""}
   ],
   "group_reflection": "",

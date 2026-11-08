@@ -20,7 +20,7 @@ meta = json.loads((ROOT/'docs/report_metadata.json').read_text())
 env = json.loads((ROOT/'benchmarks/environment.json').read_text())
 rows = list(csv.DictReader((ROOT/'benchmarks/results.csv').open()))
 complete = bool(meta['video_url'] and meta['actual_contributions'] and meta['group_reflection'] and
-                all(m['github'] and m['learning'] for m in meta['members']))
+                all((m['github'] or m.get('omit_github', False)) and m['learning'] for m in meta['members']))
 out = ROOT/'docs/Cooking_It_Up_Report.pdf'
 ink = colors.HexColor('#183b38')
 body = ParagraphStyle('Body', fontName='Helvetica', fontSize=12, leading=15, spaceAfter=8, textColor=colors.HexColor('#172b2a'))
@@ -48,7 +48,7 @@ page('1. Administrative and refined proposal')
 p('<b>Team:</b> CodeMonks | COP3530 Project 2b | November 8, 2026')
 if not complete: p('<b>DRAFT:</b> Required team details and/or uploaded demo link remain outstanding. See the final page and submission checklist.')
 for m in meta['members']:
-    p(escape(m['name'])+' - GitHub: '+escape(m['github'] or 'NOT SUPPLIED'))
+    p(escape(m['name'])+(' - GitHub: '+escape(m['github']) if m['github'] else ''))
 p('<b>Repository:</b> <link href="'+escape(meta['repository_url'])+'" color="#165b62">'+escape(meta['repository_url'])+'</link>')
 if meta['video_url']:
     p('<b>YouTube demo:</b> <link href="'+escape(meta['video_url'])+'" color="#165b62">'+escape(meta['video_url'])+'</link>')
@@ -108,7 +108,7 @@ p('If restarting the workflow, establish the shared interfaces and small correct
 h('Individual learning and outstanding report inputs')
 for m in meta['members']:
     p('<b>'+escape(m['name'])+':</b> '+escape(m['learning'] or 'Personal learning statement not supplied; the member must review and describe their own work.'))
-if not complete: p('Before submission: supply Artem\'s GitHub username, actual human responsibilities and learning/reflection notes, and a real YouTube demo URL. Regenerate this PDF from docs/report_metadata.json. The recording script is prepared; recording and upload remain team tasks. No human experience or individual contribution is inferred from AI-generated code.')
+if not complete: p('Before submission: supply actual human responsibilities and learning/reflection notes, and a real YouTube demo URL. Regenerate this PDF from docs/report_metadata.json. The recording script is prepared; recording and upload remain team tasks. No human experience or individual contribution is inferred from AI-generated code.')
 h('References')
 p('[1] Shuyang Li. Food.com Recipes and Interactions, Kaggle, version 2. <link href="https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions" color="#165b62">Dataset and original-author rights notice</link>. Accessed November 8, 2026.')
 p('[2] Majumder, Li, Ni, and McAuley (2019). Generating Personalized Recipes from Historical User Preferences. EMNLP-IJCNLP. <link href="https://aclanthology.org/D19-1613/" color="#165b62">ACL Anthology, D19-1613</link>.')

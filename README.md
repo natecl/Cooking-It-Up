@@ -102,6 +102,6 @@ Unit tests include CSV multiline/escaped fields, malformed input, cleaning, dupl
 
 ## Submission status
 
-The implementation and measured experiments are complete. The five-page, 12-point PDF is a **draft** until the team supplies Artem's GitHub username, truthful actual contributions and reflection notes, and the uploaded YouTube URL. See [submission checklist](docs/SUBMISSION_CHECKLIST.md) and [recording script](docs/VIDEO_SCRIPT.md).
+The implementation and measured experiments are complete. The five-page, 12-point PDF is a **draft** until the team supplies truthful actual contributions and reflection notes, and the uploaded YouTube URL. Artem's username is omitted at the user's request. See [submission checklist](docs/SUBMISSION_CHECKLIST.md) and [recording script](docs/VIDEO_SCRIPT.md).
 
 The team proposal and inherited header are credited in [PROVENANCE.md](docs/PROVENANCE.md). The implementation and supporting technical materials were generated with Codex assistance at Nathan's request. Planned roles are not claimed as completed human contributions. No Canvas submission has been made.

@@ -8,7 +8,7 @@
 - [x] README with sample and real-data instructions.
 - [x] Five-page, 12-point technical report draft and editable metadata/generator.
 - [x] Under-five-minute recording script with commands and narration.
-- [ ] Artem's GitHub username supplied in `docs/report_metadata.json`.
+- Artem's GitHub username is omitted at the user's explicit request; the assignment asks for all members' usernames.
 - [ ] Actual contributions, each member's learning, and group reflection supplied truthfully.
 - [ ] Team records demo, uploads it to YouTube (public or unlisted), and adds its URL to metadata.
 - [ ] Regenerate report: `python3 scripts/build_report.py` (requires `reportlab`). Check no draft fields remain, verify at most 5 pages and 12-point text.
